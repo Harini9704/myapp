@@ -9,7 +9,7 @@ export default function Home() {
   }
   return (
          <div><h1>num:{count}</h1>
-         <button onCClick={fn}>click</button>
+         <button onClick={fn}>click</button>
          </div>
   );
 }
