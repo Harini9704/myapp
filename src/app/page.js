@@ -12,8 +12,7 @@ export default function Home() {
          <button onClick={fn}>click</button>
          </div>
   );
-}
-export function school (){
+ function school (){
   const [cnt,setCount]=usestate(0)
   function handleClick (){
     setCount (cnt+2);
@@ -25,3 +24,4 @@ export function school (){
       </div>
 }
 
+}
